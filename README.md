@@ -37,7 +37,9 @@ Sample Usage
 >>> print vocabList
     ['1', '3', '2', '4']
 
-
+Installation
+----------------------
+    $ pip install KNN_TextClassifier
 
 
 
