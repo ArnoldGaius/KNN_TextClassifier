@@ -1,3 +1,5 @@
+[![PyPI version](https://img.shields.io/badge/python-2.7-blue.svg)](https://badge.fury.io/py/KNN_TextClassifier)
+[![PyPI version](https://badge.fury.io/py/KNN_TextClassifier.svg)](https://badge.fury.io/py/KNN_TextClassifier)
 # KNN_TextClassifier-KNN文本分类器
 Text Classifier based on Numpy
 
