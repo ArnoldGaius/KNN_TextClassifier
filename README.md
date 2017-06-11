@@ -18,11 +18,11 @@ Sample Usage
         K should be odd as I said before.
     '''        
 >>> print classify([[1,2,3,4],[2],[3]], dataMatrix, labels, K=3)
-    ['A', 'A', 'A']
+    ['C', 'C', 'C']
     
     #predict
 >>> print classify([['天气好','2','3','4'],['2'],['3']], dataMatrix, labels, K=3)
-    ['B', 'A', 'A']
+    ['C', 'A', 'C']
     
     #get transformed vector
 >>> vector,vocabList = word2VectorMatrix([['1','2','3','4'],['2'],['3']])
@@ -30,7 +30,10 @@ Sample Usage
     [[ 1.  1.  1.  1.]
     [ 0.  0.  1.  0.]
     [ 0.  1.  0.  0.]]
-
+    
+    #get transformed vocabList
+>>> print vocabList
+    ['1', '3', '2', '4']
 
 
 
