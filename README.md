@@ -10,7 +10,7 @@ Sample Usage
     #norm Data reduce influence of high ranges
 >>> normDataSet = norm(dataMatrix)
 
-    #predict K should be odd to avoid voted like {('A',2),('B',2)} difficult choice.
+    #predict K should be odd to avoid voting result like {('A',2),('B',2)} difficult choice.
 >>> print classify([[1,2,3,4],[2],[3]], dataMatrix, labels, K=3)
     ['A', 'A', 'A']
     
